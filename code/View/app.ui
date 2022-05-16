@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>640</width>
-    <height>439</height>
+    <height>528</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -60,14 +60,11 @@
              <string>Estado Inicial</string>
             </property>
             <layout class="QGridLayout" name="gridLayout">
-             <item row="0" column="1">
-              <widget class="QLineEdit" name="txt_2"/>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="txt_8"/>
              </item>
              <item row="1" column="2">
               <widget class="QLineEdit" name="txt_6"/>
-             </item>
-             <item row="0" column="0">
-              <widget class="QLineEdit" name="txt_1"/>
              </item>
              <item row="1" column="0">
               <widget class="QLineEdit" name="txt_4"/>
@@ -75,17 +72,20 @@
              <item row="1" column="1">
               <widget class="QLineEdit" name="txt_5"/>
              </item>
-             <item row="0" column="2">
-              <widget class="QLineEdit" name="txt_3"/>
+             <item row="2" column="2">
+              <widget class="QLineEdit" name="txt_9"/>
              </item>
              <item row="2" column="0">
               <widget class="QLineEdit" name="txt_7"/>
              </item>
-             <item row="2" column="1">
-              <widget class="QLineEdit" name="txt_8"/>
+             <item row="0" column="1">
+              <widget class="QLineEdit" name="txt_2"/>
              </item>
-             <item row="2" column="2">
-              <widget class="QLineEdit" name="txt_9"/>
+             <item row="0" column="2">
+              <widget class="QLineEdit" name="txt_3"/>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLineEdit" name="txt_1"/>
              </item>
             </layout>
            </widget>
@@ -133,13 +133,119 @@
      </widget>
     </item>
     <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_sol">
+         <property name="text">
+          <string>Solucionar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
      <widget class="QGroupBox" name="groupBox_3">
       <property name="title">
        <string>Solución </string>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <item>
-        <widget class="QTextEdit" name="textEdit"/>
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QTextEdit" name="textEdit"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Meta alcanzada</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_5">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>Costo de ruta: </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>El número de nodos expandidos: </string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_3">
+            <property name="text">
+             <string>El número de nodos generados: </string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="no_nodos_exp"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="num_nodos_gen"/>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="costo"/>
+          </item>
+         </layout>
+        </widget>
        </item>
       </layout>
      </widget>
