@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>528</height>
+    <width>519</width>
+    <height>590</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -61,31 +61,67 @@
             </property>
             <layout class="QGridLayout" name="gridLayout">
              <item row="2" column="1">
-              <widget class="QLineEdit" name="txt_8"/>
+              <widget class="QLineEdit" name="txt_8">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="1" column="2">
-              <widget class="QLineEdit" name="txt_6"/>
+              <widget class="QLineEdit" name="txt_6">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="1" column="0">
-              <widget class="QLineEdit" name="txt_4"/>
+              <widget class="QLineEdit" name="txt_4">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="1" column="1">
-              <widget class="QLineEdit" name="txt_5"/>
+              <widget class="QLineEdit" name="txt_5">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="2" column="2">
-              <widget class="QLineEdit" name="txt_9"/>
+              <widget class="QLineEdit" name="txt_9">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="2" column="0">
-              <widget class="QLineEdit" name="txt_7"/>
+              <widget class="QLineEdit" name="txt_7">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="0" column="1">
-              <widget class="QLineEdit" name="txt_2"/>
+              <widget class="QLineEdit" name="txt_2">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="0" column="2">
-              <widget class="QLineEdit" name="txt_3"/>
+              <widget class="QLineEdit" name="txt_3">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="0" column="0">
-              <widget class="QLineEdit" name="txt_1"/>
+              <widget class="QLineEdit" name="txt_1">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -97,31 +133,67 @@
             </property>
             <layout class="QGridLayout" name="gridLayout_2">
              <item row="0" column="1">
-              <widget class="QLineEdit" name="final_2"/>
+              <widget class="QLineEdit" name="final_2">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="1" column="2">
-              <widget class="QLineEdit" name="final_6"/>
+              <widget class="QLineEdit" name="final_6">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="0" column="2">
-              <widget class="QLineEdit" name="final_3"/>
+              <widget class="QLineEdit" name="final_3">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="0" column="0">
-              <widget class="QLineEdit" name="final_1"/>
+              <widget class="QLineEdit" name="final_1">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="1" column="1">
-              <widget class="QLineEdit" name="final_5"/>
+              <widget class="QLineEdit" name="final_5">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="1" column="0">
-              <widget class="QLineEdit" name="final_4"/>
+              <widget class="QLineEdit" name="final_4">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="2" column="0">
-              <widget class="QLineEdit" name="final_7"/>
+              <widget class="QLineEdit" name="final_7">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="2" column="1">
-              <widget class="QLineEdit" name="final_8"/>
+              <widget class="QLineEdit" name="final_8">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
              <item row="2" column="2">
-              <widget class="QLineEdit" name="final_9"/>
+              <widget class="QLineEdit" name="final_9">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
              </item>
             </layout>
            </widget>
@@ -158,6 +230,13 @@
         <widget class="QPushButton" name="btn_sol">
          <property name="text">
           <string>Solucionar</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btn_clear">
+         <property name="text">
+          <string>Limpiar</string>
          </property>
         </widget>
        </item>
