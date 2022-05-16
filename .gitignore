@@ -3,3 +3,4 @@ code/__main__.py
 LICENSE
 code/View/__pycache__/view.cpython-310.pyc
 code/controller/__pycache__/ControllerApp.cpython-310.pyc
+code/style/__pycache__/style.cpython-310.pyc
